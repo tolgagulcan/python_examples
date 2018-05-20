@@ -8,6 +8,6 @@ def myrange(start=None, end=None, step=1):
     num = start
     while (num < end):
         yield num
-        num = num + step*n
+        num = num + step
 t = list(myrange())
 print(t)
